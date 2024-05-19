@@ -1,0 +1,41 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xfc0608597b8d80F8B455805044e4618e14F7ADb4",
+      "txHash": "0x79cd88ab295384db6b24d1e2903fd009e22d2c5a05be925d42763bc7b1ad15dc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2D7228d48e3018E161ef5fBB67fD7CD70666F436",
+      "txHash": "0xf05af7c45defe24c6eb7df1b4c5e70a7bb751b1ef364186e7bc5392457e3f689",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "cba9f8cf52e3c449631a04ea218a6cedcaf7c366669cfc257c89a008266c768f": {
+      "address": "0x65BD36145e71dA369364355A74e9ef1165E93b25",
+      "txHash": "0x6b3446f2ee6aa6690c0acf254a16d918d90ed78a67b7782b33f9e33cb5c2ff92",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "_value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "SafeBox",
+            "src": "contracts/SafeBox.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
