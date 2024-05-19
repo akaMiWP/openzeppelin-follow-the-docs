@@ -4,9 +4,9 @@ const { ethers } = require("hardhat");
 
 async function main() {
   const signers = await ethers.getSigners();
-  console.log(signers);
+  //console.log(signers);
 
-  const address = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+  const address = ""; // Attach the deployed address
   const Box = await ethers.getContractFactory("Box");
   const box = Box.attach(address);
 
